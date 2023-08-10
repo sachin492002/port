@@ -3,7 +3,7 @@ import React from 'react'
 export default function ProjectCard({project}) {
   return (
     <div className='inline-flex items-center bg-gradient-to-bl from-purple-600 to-pink-600 rounded-lg'>
-        <img src={project.image} alt={project.name} className='h-36 w-1/2 md:w-1/2 '/>
+        <img src={project.image} alt={project.name} className='sm:h-36 md:h-96 w-1/2 md:w-1/2 '/>
         <div className='w-1/2 flex flex-col mt-10'>
             <h1 className='text-2xl text-white text-center'>{project.name}</h1>
             <div className='inline-flex flex-wrap gap-2' >{
