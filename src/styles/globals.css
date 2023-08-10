@@ -24,4 +24,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-image: url('/windows.jpg');
+  background-size: cover;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.page-m{
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  
 }
